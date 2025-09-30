@@ -1,0 +1,34 @@
+# Rules for Writing Variable Names in Python
+
+"""1. No spaces ❌
+
+You cannot write a space in the name."""
+
+passenger name = "sarah"
+print(passenger name)
+# variable Must start with a letter or underscore
+
+"""
+Good: name, _age ✅
+Bad: 1age, 9number ❌"""
+# 3. Use lowercase and camelCase or snake_case
+#lowercase: studentname
+#camelCast: studentName
+#snake_case
+
+"""
+passengerflighttime =
+passengerFlightTime =
+passenger_flight_time =
+"""
+# 4. No special characters
+"""
+Only letters, numbers, and _ are allowed.
+
+Example: student$age ❌"""
+#5. Variable Meaningful names
+"""
+Always give a name that tells what the variable is about.
+
+Example: x = "Ali" (not clear ❌)
+Example: student_name = "Ali" (clear ✅)"""
